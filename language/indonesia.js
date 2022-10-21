@@ -2,14 +2,14 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar~`
+    return `_*tunggu sedang di proses...*_`
 }
 exports.ok = () => {
     return `✅ Done. Ok desu~`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur Sedang Error`
+    return `_*Server Error*_`
 }
 exports.erorLink = () => {
     return `⚠️ Link nya error`
@@ -94,7 +94,7 @@ lapor owner agar segera di perbaiki 🙏
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu AzzBot-Md :*
+*📚 List-Menu GojoBot-Md :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
@@ -781,7 +781,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ ${prefix}rose
 
 ╭─❒ 「 TqTo 」 
-├ AzzBot
+├ Humanz
 ├ ZeeoneOfc
 ├ Penyedia Module
 ╰❒ And All Support
@@ -821,7 +821,7 @@ Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
 
 ⚠️ Segala kebijakan dan ketentuan AzzBot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
 
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan AzzBot
+Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan GojobotzMD
 😖🙏
 `
 }
@@ -1448,7 +1448,7 @@ return`╭─❒ 「 Random Cewe 」
 
 exports.tqto = () =>{
 	return`╭─❒ 「 TqTo 」 
-├AzzBot
+├ Humanz
 ├ ZeeoneOfc
 ├ Penyedia Module
 ╰❒ And All Support
